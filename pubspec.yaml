@@ -1,7 +1,6 @@
 name: widgets_to_image
-description: A simple package to convert any widgets into an image.
-version: 0.0.1
-author: Mohamed Abdo <mohamed_abdo95@outlook.com>
+description: A simple package to convert any widgets into an image, everything in flutter is rendered pixel by pixel.
+version: 0.0.2
 homepage: https://github.com/MohamedAbd0/widgets_to_image
 
 environment:

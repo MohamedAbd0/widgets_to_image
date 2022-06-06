@@ -11,13 +11,12 @@ class WidgetsToImage extends StatelessWidget {
     required this.controller,
   }) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
+    /// to capture widget to image by GlobalKey in RepaintBoundary
     return RepaintBoundary(
-      key:  controller.containerKey,
+      key: controller.containerKey,
       child: child,
     );
   }
 }
-

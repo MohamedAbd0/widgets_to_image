@@ -20,11 +20,10 @@ class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
 
   @override
-  _MainPageState createState() => _MainPageState();
+  MainPageState createState() => MainPageState();
 }
 
-class _MainPageState extends State<MainPage> {
-
+class MainPageState extends State<MainPage> {
   // WidgetsToImageController to access widget
   WidgetsToImageController controller = WidgetsToImageController();
   // to save image bytes of widget
@@ -51,8 +50,7 @@ class _MainPageState extends State<MainPage> {
               "Images",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             ),
-            if(bytes != null)
-            buildImage(bytes!),
+            if (bytes != null) buildImage(bytes!),
           ],
         ),
         floatingActionButton: FloatingActionButton(
@@ -64,11 +62,9 @@ class _MainPageState extends State<MainPage> {
             });
           },
         ),
-
-
       );
 
-  Widget cardWidget (){
+  Widget cardWidget() {
     return Card(
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
@@ -110,5 +106,5 @@ class _MainPageState extends State<MainPage> {
     );
   }
 
-  Widget buildImage(Uint8List bytes) =>  Image.memory(bytes);
+  Widget buildImage(Uint8List bytes) => Image.memory(bytes);
 }
