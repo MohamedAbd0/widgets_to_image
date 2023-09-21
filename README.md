@@ -46,7 +46,7 @@ final bytes = await controller.capture();
 
 Screenshots
 -----------
-![](images/Simulator.png)
+<img src="images/Simulator.png" width="310">
 
 Helper resource 
 -----------
