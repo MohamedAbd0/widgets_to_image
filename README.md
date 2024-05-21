@@ -44,15 +44,12 @@ final bytes = await controller.capture();
 
 
 
-Screenshots
------------
-<img src="images/Simulator.png" width="310">
+# Screenshots
+### Mobile devices
+![phone](https://github.com/MohamedAbd0/widgets_to_image/blob/main/images/Simulator.png?raw=true)
 
-Helper resource 
------------
-Thanks to Parth Jansari (Twitter: @JohannesMilke)
+### Web
+![phone](https://github.com/MohamedAbd0/widgets_to_image/blob/main/images/web.png?raw=true)
 
-https://medium.com/flutter-community/export-your-widget-to-image-with-flutter-dc7ecfa6bafb
-
-https://www.youtube.com/watch?v=DSJ5vONP3XM
-
+### MacOS
+![phone](https://github.com/MohamedAbd0/widgets_to_image/blob/main/images/macOS.png?raw=true)
