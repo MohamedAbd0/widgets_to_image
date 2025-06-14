@@ -8,7 +8,7 @@ A powerful Flutter package to convert any widget into high-quality images with c
 
 ## 🌐 Live Demo
 
-**[Try the interactive demo →](https://mohamedabdo.github.io/widgets_to_image/)**
+**[Try the interactive demo →](https://mohamedabd0.github.io/widgets_to_image/)**
 
 Experience the package capabilities with our modern, professional demo featuring:
 
