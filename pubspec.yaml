@@ -1,6 +1,6 @@
 name: widgets_to_image
 description: A powerful Flutter package to convert any widget into high-quality images with customizable formats, quality settings, and advanced features.
-version: 2.0.0
+version: 2.0.1
 homepage: https://github.com/MohamedAbd0/widgets_to_image
 repository: https://github.com/MohamedAbd0/widgets_to_image
 issue_tracker: https://github.com/MohamedAbd0/widgets_to_image/issues

@@ -1,4 +1,4 @@
-## 2.0.0
+## 2.0.1
 
 - **BREAKING CHANGES**: Major version update with significant improvements
 - **NEW**: Added comprehensive `CaptureOptions` class for advanced configuration
